@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Sun, Moon, Check, ScanFace, Bot, Shield, Send, X, User, Twitter, Linkedin, Facebook, Instagram, Scan, ChevronRight, BarChart3, CreditCard, ArrowRight, Eye, AlertTriangle, Lock, FileText } from 'lucide-react';
-import './styles.css'; // Importing the custom CSS file
+import '../styles/Home.css'; 
 
 interface ChatMessage {
   isUser: boolean;
